@@ -1,0 +1,7 @@
+@mixin font($fs, $lh, $fw, $clr){
+      font-size: $fs + px;
+      line-height: $lh + px;
+      font-weight: $fw;
+      color: $clr;
+}
+// @include font(32, 28, 800, red)
